@@ -7,7 +7,7 @@ const cityHide = document.querySelector(".city-hide")
 
 
 search.addEventListener('click', () =>{
-    const API_Key = '7f5faf6839dd98b0a6b8ade134ebee74'
+    const API_Key = 'your_weather_api_key'
     const city = document.querySelector('.search-box input').value
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_Key}`)
